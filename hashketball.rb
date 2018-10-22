@@ -138,7 +138,7 @@ def team_info(player_name='')
    return all_stats_array
  else
    players_and_stats.each_with_index do |ele|
-     
+
      return ele.last if ele.first == player_name ##this will return a hash of statistics for a given player
    end
 
